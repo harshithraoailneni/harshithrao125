@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T14:41:53 IST" name="Default suite" finished-at="2022-11-04T14:41:56 IST" duration-ms="3235">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-04T14:41:53 IST" name="Default test" finished-at="2022-11-04T14:41:56 IST" duration-ms="3235">
+      <class name="runners.AllRunners">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:53 IST" name="setUpClass" finished-at="2022-11-04T14:41:53 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a1371]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:54 IST" duration-ms="1481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to delete the data from an api"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to delete the existing data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:55 IST" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User want to get the data by using area"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to get the data by using area"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:55 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to get the data by using hotelid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User will retrieve the data by using hotelid"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:55 IST" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User wants to create or post the data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to post the data in the database"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:56 IST" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User wants to update the data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to update the data by performing put action"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:56 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to delete the data by using hotelid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User wants to delete the existing data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T14:41:56 IST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to update the payload by using hotelid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User want to update the existing payload"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.AllRunners@3ee37e5a]" started-at="2022-11-04T14:41:56 IST" name="tearDownClass" finished-at="2022-11-04T14:41:56 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.AllRunners -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
